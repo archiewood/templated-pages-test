@@ -1,0 +1,1 @@
+select category from orders group by 1
