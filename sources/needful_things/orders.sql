@@ -1,1 +1,1 @@
-select * from orders
+select * from orders limit 1000
