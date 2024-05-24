@@ -1,13 +1,13 @@
 ---
 queries:
-   - categories: orders.sql
+   - orders: orders.sql
 ---
 
-# {params.id}
+# {params.order}
 
 ```sql orders_filtered
 select * from ${orders}
-where id = '${params.id}'
+where id = '${params.order}'
 ```
 
 <DataTable data={orders_filtered}/>

@@ -6,7 +6,8 @@ queries:
 
 <DateRange
    name=daterange
-   start="2022-01-01"
+   start="2019-01-01"
+   end="2021-12-31"
 />
 
 Click on an item to see more detail
