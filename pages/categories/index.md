@@ -6,7 +6,6 @@ queries:
 
 Click on an item to see more detail
 
-
 ```sql categories_with_link
 select *, '/categories/' || category as link
 from ${categories}
